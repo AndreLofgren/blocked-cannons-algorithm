@@ -1,5 +1,5 @@
 # blocked-cannons-algorithm
-These two programs perform parallel matrix mutliplication using Cannon's algorithm. The program mulBlockColCannon is a blocked implementation where matrix A is stored in row major format and matrix B in column major. mulBlockRowCannon is a naive implementation where both A and B are stored in row major format. The blocked implementation takes advantage of the CPU caches by improving temporal and spatial locality. A comparison of the two methods can be found in the report I have included with the program.
+These two programs perform parallel matrix mutliplication using Cannon's algorithm. The program mulBlockColCannon is a blocked implementation where matrix A is stored in row major format and matrix B in column major. mulBlockRowCannon is a naive implementation where both A and B are stored in row major format. The blocked implementation takes advantage of the CPU caches by improving temporal and spatial locality.
 
 # Compilation
 A makefile is included for compilation. Simply type 'make' or 'make all' in the command line to compile all source code. The executables will be stored in the newly created folder bin.
